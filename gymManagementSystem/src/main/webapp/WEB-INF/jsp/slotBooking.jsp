@@ -2,7 +2,7 @@
     pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
-<%@ include file="header.jsp" %> <!-- Include the header.jsp here -->
+<%@ include file="header.jsp" %> 
 <!DOCTYPE html>
 <html lang="en">
 <head>
