@@ -1,4 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,9 +12,10 @@
             box-sizing: border-box;
         }
         body {
-            /* background: url('/image/BGimg.jpg') no-repeat center center fixed; */
-            /* background: url('https://img.freepik.com/premium-photo/contemporary-spotless-fitness-gym-center-interiorgenerative-ai_391052-10889.jpg') no-repeat center center fixed;
-            background-size: cover; */
+            background-size: cover;
+        	background-repeat: no-repeat;
+        	background-position: center center;
+        	background-attachment: fixed;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -206,7 +209,7 @@
         }
     </style>
 </head>
-<body>
+<body background="/images/BGimg.jpg">
     <div class="blur-overlay"></div>
     <div class="container" id="container">
         <div align="center" class="form-container sign-in-container">
