@@ -105,6 +105,7 @@
             Slot Booking
             <div class="subnav">
                 <a href="/slots2" class="subnav-item">View Slots</a>
+                <a href="/booked"class="subnav-item">View Booking</a>
             </div>
         </div>
         <div class="navbar-item">Feedback</div>

@@ -127,7 +127,7 @@
     <div class="btn-container">
       <button class="btn-get-started">GET STARTED</button>
       <div class="video-link">
-        <img src="/image/play.jpg" alt="Video Icon">
+        <img src="/images/play.jpg" alt="Video Icon">
         <span>Watch Video</span>
       </div>
     </div>
