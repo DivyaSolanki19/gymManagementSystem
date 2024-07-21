@@ -29,12 +29,12 @@ public class SlotItem {
   public void setEmbeddedId(SlotItemEmbed embeddedId) {
     this.embeddedId = embeddedId;
   }
-  public Integer getseatBooked() {
+  public Integer getSeatBooked() {
     return seatBooked;
     }
-    public void setseatBooked(Integer seatBooked) {
+    public void setSeatBooked(Integer seatBooked) {
     this.seatBooked = seatBooked;
-    } 
+    }
 }
 
 
