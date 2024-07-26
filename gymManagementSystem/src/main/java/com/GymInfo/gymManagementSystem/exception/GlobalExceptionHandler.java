@@ -20,5 +20,12 @@ public class GlobalExceptionHandler {
         modelAndView.addObject("message", ex.getMessage());
         return modelAndView;
     }
+    
+    @ExceptionHandler(DeleteUserException.class)
+    public ModelAndView handleDeleteUserException(DeleteUserException ex) {
+        ModelAndView modelAndView = new ModelAndView("userErrorPage");
+        modelAndView.addObject("message", ex.getMessage());
+        return modelAndView;
+    }
 }
 

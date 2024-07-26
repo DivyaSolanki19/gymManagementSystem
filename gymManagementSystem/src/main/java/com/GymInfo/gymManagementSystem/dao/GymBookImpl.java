@@ -46,7 +46,7 @@ public class GymBookImpl implements GymBookDao {
  }
 
 @Override
-public List<GymBook> getEntitiesByUsername(String username) {
+public List<GymBook> getBookingByUsername(String username) {
 	return repository.findByUsername(username);
 }
 

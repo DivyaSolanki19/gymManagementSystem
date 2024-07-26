@@ -174,7 +174,6 @@ function showAlert() {
                 </c:forEach>
             </table>
         </div>
-        <br/>
         <button type="submit" class="book" onClick="showAlert();">Book</button>
         <button type="button" class="return" onclick="window.history.back();">Return</button>
     </form:form>
