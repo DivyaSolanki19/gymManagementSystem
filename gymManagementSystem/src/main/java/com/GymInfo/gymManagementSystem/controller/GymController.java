@@ -209,7 +209,7 @@ public class GymController {
             uname = authentication.getName();
         }
         if(gymBookRepository.isSlotBooked(slotId,uname))
-           throw new SlotAlreadyBookedException("Slot is already booked!!");  
+           throw new SlotAlreadyBookedException("You are already booked this Slot!! ");  
         else
         {
         	GymItem gymItem=gymItemDao.findItemById(itemId);
